@@ -6,10 +6,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Ácooll X Gasolina </title>
 </head>
 <body>
-    <div id="app">
+    <div id="navbar">
         <div>
             <h1>CALCULADORA ÁLCOOL X GASOLINA</h1>
         </div>
@@ -31,7 +32,33 @@
                 Preencha os campos abaixo com os preços dos combustíveis que você encontra hoje nos postos
                  e clique no botão “calcular” para saber qual é a melhor opção.
             </p>
-    </div>
+        </div>
+        <div id="app">
+            <div>
+                <img src="./assets/imagem-bomba de combstivel.png" alt="foto da bomba de combustivel">
+            </div>
+            <div>
+                <h2>
+                    Qual a melhor opção?
+                </h2>
+            </div>
+            <div>
+                <label>Álcool (preço por litro)</label>
+                <input type="number" name="input1" id="one">
+            </div>
+            <div>
+                <label>Gasolina (preço por litro)</label>
+                <input type="number" name="input1" id="two">
+            </div>
+            <div>
+                <button onclick="calcular()">
+                    Calcular
+                </button>
+            </div>
+            <div class="res">
+
+            </div>
+        </div>
     </div>
 </body>
 </html>
