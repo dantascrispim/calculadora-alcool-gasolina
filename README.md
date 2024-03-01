@@ -3,6 +3,10 @@
 HTML5, CSS3, JAVASCRIPT, Git e Github.
 
 
+### Para acessar a calculadora de  click no link:
+https://dantascrispim.github.io/calculadora-alcool-gasolina/
+
+
 ## Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
