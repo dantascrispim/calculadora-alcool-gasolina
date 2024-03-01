@@ -35,20 +35,20 @@
         </div>
         <div id="app">
             <div>
-                <img src="./assets/imagem-bomba de combstivel.png" alt="foto da bomba de combustivel">
+                <img src="./assets/imagem-bomba de combstivel.png" width="150px" alt="foto da bomba de combustivel">
             </div>
             <div>
-                <h2>
+                <h2 class="title">
                     Qual a melhor opção?
                 </h2>
             </div>
-            <div>
-                <label>Álcool (preço por litro)</label>
-                <input type="number" name="input1" id="one">
-            </div>
-            <div>
-                <label>Gasolina (preço por litro)</label>
-                <input type="number" name="input2" id="two">
+            <div class="valores">
+                <label>Álcool (preço por litro)</label><br>
+                <input type="text" name="input1" id="one" placeholder="R$ 0,00">
+            </div><br>
+            <div class="valores">
+                <label>Gasolina (preço por litro)</label><br>
+                <input type="text" name="input2" id="two" placeholder="R$ 0,00">
             </div>
             <div>
                 <button onclick="calcular()">
