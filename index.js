@@ -13,6 +13,7 @@ function calcular() {
         res.innerHTML = `Vale mais a pena usar Gasolina!`
     }
      if( !result) { 
-       res.innerHTML = `Por favor informa valores válidos para a conta.`
+        alert("Por favor informa valores válidos para a consulta.")
+        res.innerHTML = `ATENÇÃO!!  informa valores válidos para a consulta.`
      }
 }
