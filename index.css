@@ -75,6 +75,7 @@ button {
     border: none;
     color:rgb(255, 255, 255);
     border-radius: 4px;
+    font-weight: 400;
     
 }
 
@@ -99,4 +100,5 @@ button:hover {
     border: 1px solid gray;
     text-align: justify;
     padding: 22px;
+    border-radius: 4px;
 }
